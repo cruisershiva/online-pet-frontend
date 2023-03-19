@@ -1,0 +1,32 @@
+<!-- <div id="fd" class="pro">
+    <img class = "left-column " src={{image}} alt="">
+    <div class="des">
+        <span>{{name}}</span>
+        <h5>{{brand}}</h5>
+        <h4>{{rating}}</h4>
+        <h4>{{flavor}}</h4>
+        <h4>{{price}}</h4>
+        <h3>{{stock}}</h3>
+        <h3>{{description}}</h3>
+    </div>
+    <button id={{id}}>Add to cart</button>
+    <button id="desc-cart" style="display: none;">Go to cart</button>
+</div> -->
+<div class="wrapper">
+    <div class="product-img">
+      <img src={{image}} height="420" width="327">
+    </div>
+    <div class="product-info">
+      <div class="product-text">
+        <h1>{{name}}</h1>
+        <h2>{{brand}}</h2>
+        <p> {{description}}</p>
+      </div>
+      <div class="product-price-btn">
+        <p><span>{{price}}</span>$</p>
+        <!-- <button type="button">buy now</button> -->
+        <button type="button" id={{id}}>Add to cart</button>
+        <button type="button" id="desc-cart" style="display: none;">Go to cart</button>
+      </div>
+    </div>
+  </div>

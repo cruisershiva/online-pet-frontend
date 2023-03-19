@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+    <!-- 
+		- custom css link
+	-->
+    <link rel="stylesheet" href="/css/services.css">
+
+    <!-- 
+		- google font link
+	-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body id="top">
+    <section id="header">
+        <a href="#" class="logo"> <i class="fas fa-paw fa-3x" style="color: rgb(25, 209, 209);">pet park</i></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="/home.html">home</a></li>
+                <li><a href="/services.html">services</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+                <li>
+                    <a id="cart" class="fas fa-shopping-cart"></a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button id="btn-dropdown" class="dropbtn">Dropdown</button>
+                        <div id="dropdown" class="dropdown-content">
+                            <a href="#home">Home</a>
+                            <a id="myorder">My Orders</a>
+                            <a id="logout">Logout</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- 
+		- #CATEGORY
+	-->
+
+    <div id="main-content" class="container">
+        <section class="section category" aria-label="category" style="overflow-x: scroll;overflow-y: hidden;">
+            <div class="container" style="justify-content: flex-start">
+
+                <h2 class="h2 section-title">
+                    <span class="span">Top</span> categories
+                </h2>
+
+                <ul class="has-scrollbar" style="display:flex" style="justify-content: center;">
+                    <li class="scrollbar-item">
+                        <div class="category-card">
+                            <h3 class="h3" style="justify-content: center">
+                                <a class="card-title">
+                                    <figure id="s4" class="card-banner img-holder" style="--width: 330; --height: 300;">
+                                        <img src="image/product_02.jpg" width="400" height="300" loading="lazy" alt="Cat Food" class="img-cover">
+                                    </figure>
+                                    <h4>pets</h4>
+                                </a>
+                            </h3>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="category-card">
+                            <h3 class="h3" style="justify-content: center">
+                                <a class="card-title">
+                                    <figure id="s1" class="card-banner img-holder" style="--width: 330; --height: 300;">
+                                        <img src="image/product_01.jpg" width="400" height="300" loading="lazy" alt="Cat Food" class="img-cover">
+                                    </figure>
+                                    <h4>petfood</h4>
+                                </a>
+                            </h3>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="category-card">
+                            <h3 class="h3">
+                                <a class="card-title;">
+                                    <figure id="s2" class="card-banner img-holder" style="--width: 330; --height: 300;">
+                                        <img src="image/img/med.jpeg" width="400" height="300" loading="lazy" alt="Cat Toys" class="img-cover">
+                                    </figure>
+                                    <h4>petmed</h4>
+                                </a>
+                            </h3>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="category-card">
+                            <h3 class="h3">
+                                <a class="card-title" style="padding: 40%;">
+                                    <figure id="s3" class="card-banner img-holder" style="--width: 330; --height: 300;">
+                                        <img src="image/product_03.jpg" width="400" height="300" loading="lazy" alt="Dog Food" class="img-cover">
+                                    </figure>
+                                    <h4>pet toy</h4>
+                                </a>
+                            </h3>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script defer type="module" src="js/util.js"></script>
+    <script defer type="module" src="js/dashboard.js"></script>
+</body>
+
+</html>
